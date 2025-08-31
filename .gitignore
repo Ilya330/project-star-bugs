@@ -7,6 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Збережіть цей файл собі
+pull-requests.txt
+
+
 node_modules
 dist
 dist-ssr
