@@ -62,6 +62,16 @@
   cursor: pointer;
 }
 
+.footer-anchor-links:hover,
+.footer-anchor-links:focus {
+  opacity: 0.5;
+}
+
+.footer-logo:hover {
+  fill: #ffffff;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .footer-logo {
     width: 84px;
@@ -91,6 +101,10 @@
   .footer-anchor-list {
     flex-direction: row;
     gap: 32px;
+  }
+
+  .footer-social-list {
+    gap: 14px;
   }
 }
 
