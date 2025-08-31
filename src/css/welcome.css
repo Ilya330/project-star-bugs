@@ -1,0 +1,18 @@
+
+
+.section-welcome-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #0b0803;
+}
+
+.section-welcome-text {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0b0803;
+}
