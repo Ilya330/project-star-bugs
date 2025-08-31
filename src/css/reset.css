@@ -24,6 +24,7 @@ a {
 }
 
 button {
+  display: block;
   cursor: pointer;
   background-color: transparent;
   border: none;
