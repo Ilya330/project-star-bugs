@@ -27,6 +27,7 @@
 .footer-logo {
   width: 146px;
   height: 84px;
+  transition: cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s;
 }
 
 .footer-social-list {
@@ -40,6 +41,11 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.footer-social-icons,
+.footer-anchor-links {
+  transition: cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s;
 }
 
 .footer-anchor-list {
@@ -57,19 +63,24 @@
 }
 
 .footer-social-icons:hover,
-.footer-anchor-item:hover {
-  fill: #ffffff;
-  cursor: pointer;
-}
-
+.footer-social-icons:focus,
 .footer-anchor-links:hover,
 .footer-anchor-links:focus {
   opacity: 0.5;
+  cursor: pointer;
+  transition: cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s;
+}
+
+.footer-social-icons:active,
+.footer-anchor-links:active {
+  opacity: 0.8;
+  transition: cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s;
 }
 
 .footer-logo:hover {
   fill: #ffffff;
   cursor: pointer;
+  transition: cubic-bezier(0.25, 0.1, 0.25, 1) 0.3s;
 }
 
 @media screen and (min-width: 768px) {
