@@ -10,6 +10,8 @@
   flex-direction: column;
   background-color: #c29d84;
   border-radius: 40px;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   padding: 32px 48px;
   height: 500px;
