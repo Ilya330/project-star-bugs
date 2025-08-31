@@ -28,7 +28,7 @@
 .button-text {
   display: block;
   border: none;
-  background-color: var(--iris);
+  background-color: rgba(11, 8, 3, 0.05);
   color: var(--white);
   font-weight: 500;
   line-height: 150%;
@@ -92,15 +92,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .join-join-subscribe-form {
-    display: flex;
-    flex-direction: ;
+  .join-subscribe-wraper {
+    display: inline-flex;
+  }
+  .join-subscribe-button {
+    margin-left: 24px;
+  }
+  .join-subscribe-input {
+    margin-bottom: 16px;
+  }
+  .join-card-img {
+    width: 704px;
+    height: 400px;
   }
 }
 
 .button-text:hover,
 .button-text:focus {
-  background-color: rgba(11, 8, 3, 0.1);
+  background-color: #6f4e37;
 }
 
 .button-text {
