@@ -8,6 +8,16 @@
   margin-bottom: 24px;
   text-align: left;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .title-5 {
+    font-weight: 400;
+  }
+}
+
 .upper-text {
   margin-bottom: 32px;
   font-weight: 400;
@@ -34,6 +44,26 @@
   height: 40px;
   background-color: rgba(255, 255, 255, 0);
   margin-bottom: 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(11, 8, 3, 0.6);
+  outline: transparent;
+}
+
+.join-subscribe-input::placeholder {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  border-radius: 12px;
+  padding: 8px 12px;
+  width: 288px;
+  height: 40px;
 }
 
 .join-subscribe-button {
@@ -48,9 +78,24 @@
     inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
     inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
     inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-  background: #6f4e37;
+  background-color: #6f4e37;
   margin-bottom: 16px;
   color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .join-join-subscribe-form {
+    display: flex;
+    flex-direction: ;
+  }
 }
 
 .button-text:hover,
@@ -58,10 +103,21 @@
   background-color: rgba(11, 8, 3, 0.1);
 }
 
+.button-text {
+  text-align: center;
+  font-weight: 500;
+}
+
+.join-subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 16px;
+}
+
 .join-subscribe-icon {
   fill: #fff;
-  height: 24px;
-  width: 24px;
+
   margin-left: 12px;
 }
 
@@ -70,4 +126,9 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
+}
+
+.join-card-img {
+  margin-top: 32px;
+  border-radius: 40px;
 }
