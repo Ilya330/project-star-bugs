@@ -1,0 +1,56 @@
+/* #region Header */
+.testimonial-header {
+  text-transform:uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .testimonial-header {
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .testimonial-header {
+    text-transform: uppercase;
+  }
+}
+
+/* #endregion */
+
+/* #region Testimonials list */
+
+.testimonials-list {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .testimonials-list {
+    display: flex;
+  }
+}
+
+/* styles for desktop devices */
+@media only screen and (min-width: 1440px) {
+  .testimonials-list {
+    display: flex;
+  }
+}
+
+/* #endregion */
+
+.testimonials-list {
+    display: flex;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .testimonials-list {
+      display: flex;
+    }
+  }
+  
+  /* styles for desktop devices */
+  @media only screen and (min-width: 1440px) {
+    .testimonials-list {
+      display: flex;
+    }
+  }
