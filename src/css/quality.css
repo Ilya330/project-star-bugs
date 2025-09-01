@@ -1,11 +1,8 @@
-.quality {
-  padding: 64px 16px;
-}
 .container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 64px 16px;
 }
 
 .quality-container {
@@ -20,12 +17,11 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   margin: 0 auto;
   margin-bottom: 16px;
 }
 .quality-title {
-  max-width: 288px;
+  max-width: 100%;
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -69,8 +65,6 @@
 }
 
 .quality-text-content {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -80,11 +74,9 @@
 /* styles for tablet devices */
 
 @media only screen and (min-width: 768px) {
-  .quality {
-    padding: 64px 32px;
-  }
   .container {
     max-width: 768px;
+    padding: 64px 32px;
   }
 
   .quality-title,
@@ -122,26 +114,19 @@
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+    padding: 64px 64px;
   }
 
   .quality-tagline,
   .quality-title,
   .quality-text {
     max-width: 768px;
-    flex-basis: 100%;
-    text-align: center;
   }
 
-  .quality-tagline {
-    width: 55px;
-    height: 24px;
-  }
   .quality-title {
     font-size: 48px;
   }
-  .quality {
-    padding: 64px 64px;
-  }
+
   .quality-list {
     display: flex;
     flex-direction: row;
