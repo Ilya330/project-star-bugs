@@ -62,6 +62,8 @@
   line-height: 1.5;
   color: rgba(11, 8, 3, 0.6);
   outline: transparent;
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  padding: 8px 12px;
 }
 
 .join-subscribe-input::placeholder {
@@ -71,9 +73,8 @@
   line-height: 200%;
   letter-spacing: 0.04em;
 
-  border: 1px solid rgba(11, 8, 3, 0.15);
   border-radius: 12px;
-  padding: 8px 12px;
+
   width: 288px;
   height: 40px;
 }
@@ -134,16 +135,10 @@
     width: 158px;
     height: 44px;
   }
-}
-
-.button-text:hover,
-.button-text:focus {
-  background-color: #6f4e37;
-}
-
-.button-text {
-  text-align: center;
-  font-weight: 500;
+  .join-subscribe-button:hover,
+  .join-subscribe-button:focus {
+    background-color: rgba(11, 8, 3, 0.05);
+  }
 }
 
 .join-subscribe-form {
