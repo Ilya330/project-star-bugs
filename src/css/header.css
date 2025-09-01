@@ -35,7 +35,7 @@
   }
 
   .nav-list-link:active {
-    color: rgba(11, 8, 3, 0.7);
+    opacity: 0.7;
   }
 
   .nav-list {
@@ -50,11 +50,6 @@
     font-size: 16px;
     line-height: 1.5;
   }
-
-  .nav-list-link:hover,
-  .nav-list-link:focus {
-    color: var(--color-coffee-dark);
-  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -64,6 +59,6 @@
 
   .nav-list-link:hover,
   .nav-list-link:focus {
-    color: rgba(11, 8, 3, 0.5);
+    opacity: 0.5;
   }
 }
