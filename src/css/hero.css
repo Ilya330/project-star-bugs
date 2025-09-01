@@ -11,10 +11,12 @@
 .hero-container {
   padding: 109px 32px;
 }
+
 .hero-title {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
   font-size: 40px;
+  width: 100%;
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: #fff;
