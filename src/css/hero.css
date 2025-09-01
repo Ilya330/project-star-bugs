@@ -6,14 +6,11 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  background-image: url(/img/hero/hero-mob-min.jpg);
-  padding: 64px 0;
+  background-image: url(/img/hero/hero-tablet-min.jpg);
 }
-
 .hero-container {
-  padding: 0 32px;
+  padding: 109px 32px;
 }
-
 .hero-title {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
@@ -21,13 +18,10 @@
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: #fff;
-  width: 100%;
-  height: 192px;
   margin-bottom: 24px;
 }
 
 .hero-text {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: #fff;
@@ -82,6 +76,7 @@
 
   .hero-container {
     width: 100%;
+    padding: 312px 32px;
   }
 
   .hero-title {
@@ -105,6 +100,11 @@
   .hero-section {
     background-image: url(/img/hero/hero-desktop-min.jpg);
   }
+
+  .hero-container {
+    padding: 259px 64px;
+  }
+
   .hero-title {
     font-size: 56px;
     height: 201px;
