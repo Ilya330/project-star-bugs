@@ -6,7 +6,7 @@
   letter-spacing: -0.01em;
   text-align: center;
   color: #0b0803;
-
+  padding-top: 64px;
   margin-bottom: 24px;
 }
 
@@ -23,6 +23,7 @@
 .experience-list {
   display: flex;
   flex-direction: column;
+  padding-bottom: 64px;
   row-gap: 24px;
 }
 
