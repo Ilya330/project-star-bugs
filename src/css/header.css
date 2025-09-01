@@ -34,7 +34,7 @@
     display: block;
   }
 
-  .active {
+  .nav-list-link:active {
     color: rgba(11, 8, 3, 0.7);
   }
 
