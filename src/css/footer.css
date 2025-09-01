@@ -58,7 +58,9 @@
 }
 
 .footer-anchor-item {
+  display: flex;
   height: 24px;
+  align-items: center;
 }
 
 .footer-credits {
