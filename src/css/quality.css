@@ -9,6 +9,7 @@
 }
 
 .quality-container {
+  flex-direction: column;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -20,7 +21,7 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #0b0803;
+  margin: 0 auto;
   margin-bottom: 16px;
 }
 .quality-title {
@@ -31,8 +32,8 @@
   line-height: 1.2;
   letter-spacing: -0.01em;
   text-align: center;
-  color: #0b0803;
   text-transform: uppercase;
+  margin: 0 auto;
   margin-bottom: 24px;
 }
 .quality-text {
@@ -41,14 +42,8 @@
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  color: #0b0803;
+  margin: 0 auto;
   margin-bottom: 32px;
-}
-
-.quality-content {
-}
-
-.quality-list {
 }
 
 .quality-item {
@@ -69,7 +64,7 @@
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
-  color: #0b0803;
+  margin: 0 auto;
   margin-bottom: 8px;
 }
 
@@ -79,7 +74,7 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #0b0803;
+  margin: 0 auto;
 }
 
 /* styles for tablet devices */
@@ -95,9 +90,6 @@
   .quality-title,
   .quality-text {
     max-width: 452px;
-  }
-
-  .quality-tagline {
   }
 
   .quality-text {
