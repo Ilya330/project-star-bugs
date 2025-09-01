@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: #0b0803;
 }
 
 .mobile-menu {
@@ -11,7 +12,7 @@ a {
   visibility: hidden;
   pointer-events: none;
 
-    display: flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -93,9 +94,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #0b0803;
-  opacity: 1;
-  transition: opacity 0.2s ease;
 }
 
 .nav-list-item a:hover ,
