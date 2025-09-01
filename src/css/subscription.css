@@ -120,6 +120,9 @@
     width: 158px;
     height: 44px;
   }
+  .join-subscribe-button:active {
+    opacity: 0.7;
+  }
   .join-subscribe-button:hover,
   .join-subscribe-button:focus {
     box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
