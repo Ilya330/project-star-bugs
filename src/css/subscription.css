@@ -18,6 +18,18 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .title-5 {
+    font-size: 48px;
+  }
+  .join-wraper {
+    margin-top: 61.5px;
+  }
+}
+
 .upper-text {
   margin-bottom: 32px;
   font-weight: 400;
@@ -97,6 +109,8 @@
   }
   .join-subscribe-button {
     margin-left: 24px;
+    width: 158px;
+    height: 44px;
   }
   .join-subscribe-input {
     margin-bottom: 16px;
@@ -104,6 +118,21 @@
   .join-card-img {
     width: 704px;
     height: 400px;
+  }
+  .join-subscribe-input {
+    width: 340px;
+    height: 44px;
+  }
+  .join-subscribe-input::placeholder {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .join-subscribe-button {
+    width: 158px;
+    height: 44px;
   }
 }
 
@@ -140,4 +169,21 @@
 .join-card-img {
   margin-top: 32px;
   border-radius: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .join-wraper {
+    margin-right: 32px;
+    width: 640px;
+    height: 277px;
+  }
+  .join-card-img {
+    margin-top: 0;
+    width: 640px;
+    height: 400px;
+  }
 }
