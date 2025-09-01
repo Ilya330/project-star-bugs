@@ -7,10 +7,7 @@
 
 .quality-container {
   flex-direction: column;
-  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 .quality-tagline {
   font-family: 'Quicksand', sans-serif;
