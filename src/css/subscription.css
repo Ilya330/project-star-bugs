@@ -47,7 +47,8 @@ html {
   margin-bottom: 24px;
   text-align: left;
 }
-.subscribe-image img {
+.join-card-img img {
+  display: block;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -134,7 +135,12 @@ html {
   .picture-container {
     max-width: 688px;
   }
+  .join-card-img {
+    width: 704px;
+    height: 400px;
+  }
   .join-wraper {
+    margin-left: 32px;
     align-items: flex-start;
   }
   .join-subscribe {
@@ -151,18 +157,16 @@ html {
     align-items: center;
     text-align: left;
   }
-  . .join-subscribe-wraper {
+  .join-subscribe-wraper {
     display: inline-flex;
+    flex-direction: row;
   }
   .join-subscribe-button {
     margin-left: 24px;
     width: 158px;
     height: 44px;
   }
-  .join-card-img {
-    width: 704px;
-    height: 400px;
-  }
+
   .join-subscribe-input {
     margin-bottom: 16px;
     width: 340px;
@@ -205,20 +209,18 @@ html {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
+  text-align: start;
 }
 .join-card-img {
   margin-top: 32px;
   border-radius: 40px;
 }
 @media screen and (min-width: 1440px) {
-  .container {
-    display: flex;
-    flex-direction: row;
-  }
   .join-wraper {
     margin-right: 32px;
-    width: 640px;
-    height: 277px;
+  }
+  .container-subscribe {
+    flex-direction: row;
   }
   .join-card-img {
     margin-top: 0;
