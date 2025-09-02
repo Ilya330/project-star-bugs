@@ -122,6 +122,17 @@ html {
   color: #0b0803;
 }
 
+.error-message {
+  color: #7f1c1c;
+  line-height: 1.5;
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 1px;
+  font-size: 12px;
+  opacity: 0;
+}
+
 .join-subscribe-button {
   font-weight: 500;
   font-size: 16px;
@@ -195,6 +206,22 @@ html {
     font-size: 16px;
     line-height: 1.5;
   }
+
+  .join-subscribe-label {
+    width: 100%;
+    position: relative;
+  }
+
+  .error-message {
+    color: #7f1c1c;
+    line-height: 1.5;
+    display: none;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    font-size: 12px;
+    opacity: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -263,19 +290,12 @@ html {
   .join-card-img {
     margin-top: 0;
   }
-}
-
-.error-message {
-  color: #7f1c1c;
-  line-height: 1.5;
-  display: none;
-  position: absolute;
-  bottom: -3px;
-  left: 1px;
-  font-size: 12px;
+  .error-message {
+  }
 }
 
 .join-subscribe-input:invalid + .error-message {
   color: #7f1c1c;
   display: block;
+  opacity: 1;
 }
