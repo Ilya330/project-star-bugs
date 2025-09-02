@@ -1,3 +1,79 @@
-<section class="modal-window-subscription">
-  <div class="container">Modal window subscription</div>
+<section class="modal-window">
+  <div class="container">
+    <div class="modal-overlay" menu>
+      <div class="modal-backdrop">
+        <button class="close-modal-btn" menu-close>
+          <svg class="close-modal-svg" width="16" height="16">
+            <use href="/img/sprite.svg#icon-menu-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">Welcome to the world of CoffeeJoy!</h2>
+        <p class="modal-text">
+          Fresh brews, special offers, and cozy updates are coming your way.
+        </p>
+        <div class="thumb">
+          <picture>
+            <source
+              srcset="
+                /img/successful/desktop/additional-desktop-img.webp    1x,
+                /img/successful/desktop/additional-desktop-img@2x.webp 2x,
+                /img/successful/desktop/additional-desktop-img@3x.webp 3x
+              "
+              type="image/webp"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                /img/successful/desktop/additional-desktop-img.jpg    1x,
+                /img/successful/desktop/additional-desktop-img@2x.jpg 2x,
+                /img/successful/desktop/additional-desktop-img@3x.jpg 3x
+              "
+              type="image/jpeg"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                /img/successful/tablet/additional-tablet-img.webp    1x,
+                /img/successful/tablet/additional-tablet-img@2x.webp 2x,
+                /img/successful/tablet/additional-tablet-img@3x.webp 3x
+              "
+              type="image/webp"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="
+                /img/successful/tablet/additional-tablet-img.jpeg    1x,
+                /img/successful/tablet/additional-tablet-img@2x.jpeg 2x,
+                /img/successful/tablet/additional-tablet-img@3x.jpeg 3x
+              "
+              type="image/jpeg"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="
+                /img/successful/mobile/additional-mobile-img.webp    1x,
+                /img/successful/mobile/additional-mobile-img@2x.webp 2x,
+                /img/successful/mobile/additional-mobile-img@3x.webp 3x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                /img/successful/mobile/additional-mobile-img.jpg    1x,
+                /img/successful/mobile/additional-mobile-img@2x.jpg 2x,
+                /img/successful/mobile/additional-mobile-img@3x.jpg 3x
+              "
+              type="image/jpeg"
+            />
+            <img
+              class="additional-img"
+              src="/img/successful/mobile/additional-mobile-img.jpg"
+              alt="coffee on the table"
+            />
+          </picture>
+        </div>
+        <button class="modal-btn">Close</button>
+      </div>
+    </div>
+  </div>
 </section>
