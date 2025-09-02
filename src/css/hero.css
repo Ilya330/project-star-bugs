@@ -7,9 +7,11 @@
   justify-content: flex-start;
   flex-direction: row;
   background-image: url(/img/hero/hero-tablet-min.jpg);
+  padding-top: 109px;
+  padding-bottom: 109px;
 }
 .hero-container {
-  padding: 109px 32px;
+  padding: 0 32px;
 }
 
 .hero-title {
@@ -71,11 +73,13 @@
   .hero-section {
     background-image: url(/img/hero/hero-tablet-min.jpg);
     height: 900px;
+    padding-top: 312px;
+    padding-bottom: 312px;
   }
 
   .hero-container {
     width: 100%;
-    padding: 312px 32px;
+    padding: 0 32px;
   }
 
   .hero-title {
@@ -98,10 +102,12 @@
 @media only screen and (min-width: 1140px) {
   .hero-section {
     background-image: url(/img/hero/hero-desktop-min.jpg);
+    padding-top: 259px;
+    padding-bottom: 259px;
   }
 
   .hero-container {
-    padding: 259px 64px;
+    padding: 0 64px;
   }
 
   .hero-title {
