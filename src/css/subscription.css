@@ -42,6 +42,7 @@ html {
 
 .join-subscribe-label {
   width: 100%;
+  position: relative;
 }
 
 .title-5 {
@@ -96,13 +97,12 @@ html {
   padding: 8px 12px;
 }
 
-.join-subscribe-input:hover {
-  border-color: #0b0803;
+.join-subscribe-input:hover,
+.join-subscribe-input:focus {
+  border-color: #0b080326;
+  color: #0b0803;
 }
 
-.join-subscribe-input:focus {
-  border-color: #0b0803;
-}
 .join-subscribe-input::placeholder {
   color: rgba(11, 8, 3, 0.15);
   font-size: 12px;
@@ -114,6 +114,7 @@ html {
 }
 
 .join-subscribe-input:invalid {
+  border-color: #7f1c1c;
   color: #7f1c1c;
 }
 
@@ -268,6 +269,10 @@ html {
   color: #7f1c1c;
   line-height: 1.5;
   display: none;
+  position: absolute;
+  bottom: -3px;
+  left: 1px;
+  font-size: 12px;
 }
 
 .join-subscribe-input:invalid + .error-message {
