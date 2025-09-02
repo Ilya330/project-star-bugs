@@ -1,9 +1,9 @@
-.container {
+/* .container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
   padding: 64px 16px;
-}
+} */
 
 .quality-container {
   flex-direction: column;
@@ -71,10 +71,10 @@
 /* styles for tablet devices */
 
 @media only screen and (min-width: 768px) {
-  .container {
+  /* .container {
     max-width: 768px;
     padding: 64px 32px;
-  }
+  } */
 
   .quality-title,
   .quality-text {
@@ -109,10 +109,10 @@
 
 /* styles for desktop devices */
 @media only screen and (min-width: 1440px) {
-  .container {
+  /* .container {
     max-width: 1440px;
     padding: 64px 64px;
-  }
+  } */
 
   .quality-tagline,
   .quality-title,
