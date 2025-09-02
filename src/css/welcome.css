@@ -1,30 +1,26 @@
 .container-welcome-title {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
     line-height: 1.5;
-    color: #0b0803;
     padding-top: 64px;
     max-width: 288px;
     margin: 0 auto;
 }
 
+
+
 .section-welcome-title {
     font-family: "Aboreto", sans-serif;
-    font-weight: 400;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: -0.01em;
-    color: #0b0803;
     margin-top: 16px;
 }
 
 .section-welcome-text {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
-    color: #0b0803;
     margin-top: 32px;
 }
 
@@ -72,7 +68,7 @@
 
 @media only screen and (min-width: 768px) {
 .container-welcome-title {
-    display: grid;
+    
     grid-template-columns: 336px 336px;
     column-gap: 32px;
     width: calc(336px + 32px + 336px);
@@ -80,6 +76,14 @@
     margin: 0 auto;
     align-items: start;
    }
+.wrapper {
+display: flex;
+    column-gap: 32px;
+}
+
+.wrapper-item {
+    width: 640px;
+}
 
 .welcome-kicker {
     grid-column: 1;
