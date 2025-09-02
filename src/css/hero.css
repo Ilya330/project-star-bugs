@@ -99,7 +99,7 @@
   }
 }
 
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 1440px) {
   .hero-section {
     background-image: url(/img/hero/hero-desktop-min.jpg);
     padding-top: 259px;
@@ -116,7 +116,7 @@
   }
 }
 
-@media only screen and (min-width: 1140px) and (min-resolution: 2x) {
+@media only screen and (min-width: 1440px) and (min-resolution: 2x) {
   .hero-section {
     background-image: url(/img/hero/hero-desktop@2x-min.jpg);
   }
