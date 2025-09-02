@@ -1,7 +1,5 @@
-
-
 <section class="subscribe">
-  <div class="container">
+  <div class="container container-subscribe">
     <div class="join-wraper">
      <h2 class="title-5">Join Our Coffee Community</h2>
           <p class="upper-text">Experience the joy of coffee delivered right to your door. Sign up today!</p>
@@ -9,15 +7,18 @@
           <div class="join-subscribe">
           <form class="join-subscribe-form">
             
-            <div class="join-subscribe-wraper">
+            <div class="join-subscribe-wraper error">
               <label class="join-subscribe-label">
                 <input
                   type="email"
                   name="subscribe-email"
                   id="subscribe-email" required
                   class="join-subscribe-input"
-                  placeholder="Your Email Here"
+                  placeholder="Your Email Here" 
+                  novalidate
                 />
+                <div class="error-message">Error Text</div>
+        
               </label>
               <button
                 type="submit"

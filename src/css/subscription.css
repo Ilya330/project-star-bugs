@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .title-5 {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
@@ -9,25 +13,13 @@
   text-align: left;
 }
 
-.container {
-  padding: 64px 16px;
-}
-
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 64px 32px;
-  }
   .title-5 {
     font-weight: 400;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 64px 64px;
-  }
   .title-5 {
     font-size: 48px;
   }
@@ -59,17 +51,37 @@
   padding: 8px 12px;
 }
 
+.join-subscribe-input:hover {
+  border-color: #0b0803;
+}
+
+.join-subscribe-input:focus {
+  border-color: #0b0803;
+}
+
 .join-subscribe-input::placeholder {
-  color: var(--white);
+  color: rgba(11, 8, 3, 0.15);
   font-size: 12px;
   font-weight: 400;
   line-height: 200%;
   letter-spacing: 0.04em;
 
-  border-radius: 12px;
-
   width: 288px;
   height: 40px;
+}
+
+.error-message {
+  color: #7f1c1c;
+  line-height: 1.5;
+  display: none;
+}
+
+.join-subscribe-input:invalid {
+  color: #7f1c1c;
+}
+
+.join-subscribe-input:active::placeholder {
+  color: #0b0803;
 }
 
 .join-subscribe-button {
@@ -79,7 +91,7 @@
   border-radius: 100px;
   padding: 10px 24px;
   width: 288px;
-  height: 44px;
+
   border: none;
 
   background-color: #6f4e37;
@@ -104,14 +116,13 @@
     width: 158px;
     height: 44px;
   }
-  .join-subscribe-input {
-    margin-bottom: 16px;
-  }
+
   .join-card-img {
     width: 704px;
     height: 400px;
   }
   .join-subscribe-input {
+    margin-bottom: 16px;
     width: 340px;
     height: 44px;
   }
@@ -144,7 +155,7 @@
 .join-subscribe-form {
   display: flex;
   flex-direction: column;
-  align-items: left;
+
   gap: 16px;
 }
 
@@ -155,7 +166,6 @@
 }
 
 .lower-text {
-  margin-bottom: 32px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
