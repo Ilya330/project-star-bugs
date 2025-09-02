@@ -26,14 +26,21 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .logo {
   display: flex;             
   align-items: center;       
   padding: 18px 0;
+}
+
+.logo,
+.close-btn {
+  flex-shrink: 0;
 }
 
 .close-btn {
@@ -72,7 +79,7 @@ a {
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; 
 }
 
 .menu-links-list{
@@ -108,4 +115,10 @@ a {
 .nav-list-item{
     display: flex;
     justify-content: center;
+}
+
+@media (min-width: 375px) {
+  .menu-content {
+    margin-top: 40px; 
+  }
 }
