@@ -1,7 +1,7 @@
 .experience-titel {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: -0.01em;
   text-align: center;
@@ -45,6 +45,9 @@
 @media only screen and (min-width: 1440px) {
   .experience {
     justify-content: center;
+  }
+  .experience-titel {
+    font-size: 48px;
   }
 
   .experience-list {
