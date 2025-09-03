@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 767px) and (min-resolution: 2x) {
   .hero-section {
-    background-image: url(/img/hero/hero-tablet-min@2x-min.jpg);
+    background-image: url(/img/hero/hero-tablet@2x-min.jpg);
   }
 }
 
