@@ -29,7 +29,9 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  transition: opacity 350ms ease-in-out, visibility 350ms ease-in-out;
 }
+
 .close-modal-btn {
   position: absolute;
   top: 23px;
@@ -37,6 +39,16 @@
   width: 32px;
   height: 32px;
 }
+
+.close-modal-svg {
+  transition: opacity 350ms ease-in-out;
+}
+
+.close-modal-svg:hover,
+.close-modal-svg:focus {
+  opacity: 0.5;
+}
+
 .modal-title {
   font-family: 'Aboreto', sans-serif;
   font-weight: 400;
@@ -47,6 +59,7 @@
   margin-bottom: 16px;
   color: #0b0803;
 }
+
 .modal-text {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
@@ -56,6 +69,7 @@
   margin-bottom: 24px;
   color: #0b0803;
 }
+
 .modal-img {
   border-radius: 24px;
   overflow: hidden;
@@ -75,7 +89,14 @@
   line-height: 1.5;
   color: #ffffff;
   margin: 0 auto;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-btn:hover,
+.modal-btn:focus {
+  opacity: 0.5;
+}
+
 @media only screen and (min-width: 768px) {
   .modal-backdrop {
     max-width: 704px;
