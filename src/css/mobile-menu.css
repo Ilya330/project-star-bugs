@@ -48,6 +48,7 @@
 .menu-content {
   display: flex;
   margin: auto;
+  padding-bottom: 72px;
 }
 
 .mob-nav-list {
