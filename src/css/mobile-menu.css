@@ -1,22 +1,25 @@
 
-
-/* #region style */
-
 .mobile-menu {
   position: fixed;
-  inset: 0;
-  background-color: #e0cbb4; 
-  opacity: 0;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
+  background-color: #e0cbb4;
+  transform: translateX(100%);
+  visibility: hidden;
+  pointer-events: none;
+  overflow-y: auto;
+  transition: transform 0.5s ease-in-out,
+   opacity 0.5s ease-in-out , linear 0.5s;
 }
 
-.mobile-menu.is-open{
+.mobile-menu.is-open {
+  transform: translateX(0);
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .mobile-menu > .container {
