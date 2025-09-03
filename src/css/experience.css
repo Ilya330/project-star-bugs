@@ -1,0 +1,64 @@
+.experience-titel {
+  font-family: 'Aboreto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.experience-txt {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.experience-img {
+  border-radius: 32px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .experience-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .experience-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+  .tab-ful-scren {
+    min-width: 704px;
+    min-height: 391px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .experience {
+    justify-content: center;
+  }
+  .experience-titel {
+    font-size: 48px;
+  }
+
+  .experience-list {
+    flex-direction: column;
+    max-height: 1012px;
+  }
+  .experience-img {
+    width: auto;
+  }
+  .tab-ful-scren {
+    min-width: 416px;
+    min-height: 416px;
+  }
+}
