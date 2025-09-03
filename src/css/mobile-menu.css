@@ -46,20 +46,15 @@
 }
 
 .menu-content {
-  flex-grow: 1;
   display: flex;
-  justify-content: center; 
   margin: auto;
-  
 }
 
 .mob-nav-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
 }
 
 .mob-nav-list-item a {
