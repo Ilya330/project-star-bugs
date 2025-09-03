@@ -24,7 +24,7 @@
 
     <!--css-->
     <script type="module" crossorigin src="/project-star-bugs/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-star-bugs/assets/index-Bl-yzr9E.css">
+    <link rel="stylesheet" crossorigin href="/project-star-bugs/assets/index-UfTaJlGK.css">
   </head>
 
   <body>
@@ -54,7 +54,7 @@
         </li>
       </ul>
     </nav>
-    <button class="menu-btn">
+    <button class="menu-btn" data-modal-open>
       <svg class="" width="16" height="12">
         <use href="/project-star-bugs/assets/sprite-D5pX-yyP.svg#icon-burger"></use>
       </svg>
@@ -812,33 +812,36 @@
 
 
     <!-- mobile-menu -->
-    <section class="mobile-menu is-open" id="mobileMenu">
-  <div class="container ">
+    <div class="mobile-menu is-open" id="mobilemenu" data-modal>
+  <div class="container">
     <div class="menu-header">
-      <div class="logo">
+      <a href="index.html" class="logo">
         <svg class="icon-logo" width="84" height="36">
           <use href="../img/sprite.svg#icon-logo"></use>
         </svg>
-      </div>
-      <button class="close-btn" type="button">
+      </a>
+      <button class="close-btn" type="button" data-modal-close>
         <svg class="icon-menu-close" width="24" height="24">
-          <use href="../img/sprite.svg#icon-menu-close"></use>
+          <use href="/project-star-bugs/assets/sprite-D5pX-yyP.svg#icon-menu-close"></use>
         </svg>
       </button>
     </div>
-    <div class="menu-content">
-        <nav class="menu-links-list">
-          <ul class="nav-list">
-            <li class="nav-list-item"><a href="#about-us">About us</a></li>
-            <li class="nav-list-item"><a href="#benefits">Benefits</a></li>
-            <li class="nav-list-item"><a href="#gallery">Gallery</a></li>
-            <li class="nav-list-item"><a href="#testimonial">Testimonial</a></li>
-            <li class="nav-list-item"><a href="#location">Location</a></li>
+    <nav class="menu-content">
+          <ul class="mob-nav-list">
+            <li class="mob-nav-list-item"><a href="#about-us">About us</a></li>
+            <li class="mob-nav-list-item"><a href="#benefits">Benefits</a></li>
+            <li class="mob-nav-list-item"><a href="#gallery">Gallery</a></li>
+            <li class="mob-nav-list-item"><a href="#testimonial">Testimonial</a></li>
+            <li class="mob-nav-list-item"><a href="#location">Location</a></li>
           </ul>
-        </nav>
-      </div>
+      </nav>
   </div>
-</section>
+</div>
+
+
+
+
+
 
     <!-- modal-window-success-subscription" -->
     <section class="modal-window-subscription">
