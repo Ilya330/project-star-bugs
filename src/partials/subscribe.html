@@ -12,15 +12,15 @@
             <div class="join-subscribe-wraper error">
               <label class="join-subscribe-label">
                 <input
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                   type="email"
                   name="subscribe-email"
                   id="subscribe-email"
                   required
                   class="join-subscribe-input"
                   placeholder="Your Email Here"
-                  novalidate
                 />
-                <p class="error-message">Error Text</p>
+                <p class="text-invalid">Error Text</p>
               </label>
               <button
                 type="submit"
