@@ -9,6 +9,7 @@
   visibility: hidden;
   pointer-events: none;
   background: rgba(0, 0, 0, 0.25);
+  transition: opacity 350ms ease-in-out, visibility 350ms ease-in-out;
 }
 .is-open {
   opacity: 1;
@@ -31,7 +32,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  transition: opacity 350ms ease-in-out, visibility 350ms ease-in-out;
 }
 
 .close-modal-btn {
