@@ -1,11 +1,11 @@
 (() => {
   const refsmenu = {
     // Додати атрибут data-modal-open на кнопку відкриття
-    openMenuBtn: document.querySelector('[menu-open]'),
+    openMenuBtn: document.querySelector('[data-menu-open]'),
     // Додати атрибут data-modal-close на кнопку закриття
-    closeMenuBtn: document.querySelector('[menu-close]'),
+    closeMenuBtn: document.querySelector('[data-menu-close]'),
     // Додати атрибут data-modal на бекдроп модалки
-    menu: document.querySelector('[menu]'),
+    menu: document.querySelector('[data-menu]'),
   };
   refsmenu.openMenuBtn.addEventListener('click', toggleMenu);
   refsmenu.closeMenuBtn.addEventListener('click', toggleMenu);
