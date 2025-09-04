@@ -1,3 +1,74 @@
-<section class="modal-window-subscription">
-  <div class="container">Modal window subscription</div>
-</section>
+<div class="modal-overlay" data-modal>
+  <div class="modal-backdrop">
+    <button class="close-modal-btn" data-modal-close>
+      <svg class="close-modal-svg" width="16" height="16">
+        <use href="/img/sprite.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Welcome to the world of CoffeeJoy!</h2>
+    <p class="modal-text">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <div class="thumb">
+      <picture>
+        <source
+          srcset="
+            /img/successful/desktop/desktop.webp    1x,
+            /img/successful/desktop/desktop@2x.webp 2x
+          "
+          type="image/webp"
+          media="(min-width: 1440px)"
+        />
+
+        <source
+          srcset="
+            /img/successful/desktop/desktop.jpg     1x,
+            /img/successful/desktopt/desktop@2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(min-width: 1440px)"
+        />
+
+        <source
+          srcset="
+            /img/successful/tablet/tablet.webp    1x,
+            /img/successful/tablet/tablet@2x.webp 2x
+          "
+          type="image/webp"
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            /img/successful/tablet/tablet.jpg    1x,
+            /img/successful/tablet/tablet@2x.jpg 2x
+          "
+          type="image/jpeg"
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            /img/successful/mobile/mobile-sub.webp    1x,
+            /img/successful/mobile/mobile-sub@2x.webp 2x
+          "
+          type="image/webp"
+        />
+
+        <source
+          srcset="
+            /img/successful/mobile/mobile-sub.jpg    1x,
+            /img/successful/mobile/mobile-sub@2x.jpg 2x
+          "
+          type="image/jpeg"
+        />
+        <img
+          class="modal-img"
+          src="/img/successful/desktop-sub.jpg"
+          alt="coffee on the table"
+        />
+      </picture>
+    </div>
+    <button class="modal-btn">Close</button>
+  </div>
+</div>
