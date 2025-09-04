@@ -24,7 +24,7 @@
 
     <!--css-->
     <script type="module" crossorigin src="/project-star-bugs/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-star-bugs/assets/index-D1iZ6QVJ.css">
+    <link rel="stylesheet" crossorigin href="/project-star-bugs/assets/index-C8mAP1jA.css">
   </head>
 
   <body>
@@ -416,6 +416,7 @@
                 type="submit"
                 class="join-subscribe-button button-text"
                 aria-label="Subscribe button"
+                data-modal-open
               >
                 Subscribe
                 <svg class="join-subscribe-icon" width="13" height="12">
@@ -891,9 +892,62 @@
 
 
     <!-- modal-window-success-subscription" -->
-    <section class="modal-window-subscription">
-  <div class="container">Modal window subscription</div>
-</section>
+    <div class="modal-overlay" data-modal>
+  <div class="modal-backdrop">
+    <button class="close-modal-btn" data-modal-close>
+      <svg class="close-modal-svg" width="16" height="16">
+        <use href="/project-star-bugs/assets/sprite-D5pX-yyP.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Welcome to the world of CoffeeJoy!</h2>
+    <p class="modal-text">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <div class="thumb">
+      <picture>
+        <source
+          srcset="/project-star-bugs/assets/tablet-EV7j1XK-.webp 1x, /project-star-bugs/assets/tablet@2x-DQ2npM2k.webp 2x"
+          type="image/webp"
+          media="(min-width: 1440px)"
+        />
+
+        <source
+          srcset="/project-star-bugs/assets/tablet-DMh4zRJk.jpg 1x, /img/successful/desktopt/desktop@2x.jpg 2x"
+          type="image/jpeg"
+          media="(min-width: 1440px)"
+        />
+
+        <source
+          srcset="/project-star-bugs/assets/tablet-EV7j1XK-.webp 1x, /project-star-bugs/assets/tablet@2x-DQ2npM2k.webp 2x"
+          type="image/webp"
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="/project-star-bugs/assets/tablet-DMh4zRJk.jpg 1x, /project-star-bugs/assets/tablet@2x-DrRXN1uQ.jpg 2x"
+          type="image/jpeg"
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="/project-star-bugs/assets/mobile-sub-Bd1W6V5Z.webp 1x, /project-star-bugs/assets/mobile-sub@2x-BdqtxmPW.webp 2x"
+          type="image/webp"
+        />
+
+        <source
+          srcset="/project-star-bugs/assets/mobile-sub-BSbPVGRo.jpg 1x, /project-star-bugs/assets/mobile-sub@2x-B7VDdOwl.jpg 2x"
+          type="image/jpeg"
+        />
+        <img
+          class="modal-img"
+          src="/img/successful/desktop-sub.jpg"
+          alt="coffee on the table"
+        />
+      </picture>
+    </div>
+    <button class="modal-btn">Close</button>
+  </div>
+</div>
 
 
   </body>
