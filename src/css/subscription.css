@@ -4,6 +4,7 @@
 .join-subscribe-form {
   display: block;
   width: 100%;
+  margin-bottom: 16px;
 }
 .join-subscribe-wraper {
   display: flex;
@@ -46,11 +47,7 @@
   border: 1px solid rgba(11, 8, 3, 0.15);
   padding: 8px 12px;
 }
-.join-subscribe-input:hover,
-.join-subscribe-input:focus {
-  border-color: #0b080326;
-  color: #0b0803;
-}
+
 .join-subscribe-input::placeholder {
   color: rgba(11, 8, 3, 0.6);
   font-size: 16px;
@@ -87,15 +84,12 @@
   max-width: 375px;
   border: none;
   background-color: #6f4e37;
-  margin-bottom: 16px;
   margin-top: 24px;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
-  padding-left: 24px;
-  padding-right: 24px;
 }
 .join-subscribe-icon {
   fill: #fff;
@@ -148,6 +142,13 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .join-wraper {
+    justify-content: space-between;
+  }
+  .subcribe-wrapper {
+    margin-bottom: 0;
+    width: 640px;
+  }
   .title-5 {
     font-size: 48px;
   }
@@ -155,6 +156,12 @@
     width: 158px;
     height: 44px;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .join-subscribe-input:hover,
+  .join-subscribe-input:focus {
+    border-color: #0b080326;
+    color: #0b0803;
   }
   .join-subscribe-button:active {
     opacity: 0.7;
