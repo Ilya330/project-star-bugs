@@ -1,126 +1,127 @@
 .container-welcome-title {
-    font-family: "Aboreto", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.5;
-    max-width: 288px;
-    margin: 0 auto;
+  font-family: 'Aboreto', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  max-width: 288px;
+  margin: 0 auto;
 }
 
 .wrapper {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .welcome-kicker {
-    font-weight: 600;
-    line-height: 1.5;
-    margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .section-welcome-title {
-    font-family: "Aboreto", sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
-    margin-bottom: 32px;
+  font-family: 'Aboreto', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
 }
 
 .section-welcome-text {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 32px;
 }
 
 .find-location-link {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 100px;
-    min-height: 44px;
-    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-    background-color: #6f4e37;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 500;
-    line-height: 1.5;
-    color: #fff;
-    white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  min-height: 44px;
+  box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+  background-color: #6f4e37;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+  white-space: nowrap;
 }
 
-
 .find-location-icon {
-    fill: #fff;
-    width: 24px;
-    height: 24px;
+  fill: #fff;
+  width: 24px;
+  height: 24px;
 }
 
 .section-welcome-image {
-    width: 100%;
-    display: block;
-    border-radius: 40px;
-}
-
-.find-location-link:hover, .find-location-link:focus {
-    opacity: 0.5;
-}
-
-.find-location-link:active {
-    opacity: 0.7;
+  width: 100%;
+  display: block;
+  border-radius: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-    .container-welcome-title {
-        max-width: none;
-        margin: 0 auto;
-        align-items: start;
-    }
+  .container-welcome-title {
+    max-width: none;
+    margin: 0 auto;
+    align-items: start;
+  }
 
-    .wrapper {
-        display: flex;
-        column-gap: 32px;
-        margin-bottom: 32px;
-    }
+  .wrapper {
+    display: flex;
+    column-gap: 32px;
+    margin-bottom: 32px;
+  }
 
-    .wrapper-item {
-        width: 336px;
-    }
+  .wrapper-item {
+    width: 336px;
+  }
 
+  .welcome-kicker {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
 
-    .welcome-kicker {
-        display: block;
-        font-size: 16px;
-        margin-bottom: 16px;
-    }
+  .find-location-link {
+    width: 181px;
+  }
 
-    .find-location-link {
-        width: 181px;
-    }
-
-    .section-welcome-image {
-        object-fit: none;
-        border-radius: 40px;
-    }
+  .section-welcome-image {
+    object-fit: none;
+    border-radius: 40px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
-    .wrapper {
+  .wrapper {
+    margin-bottom: 80px;
+  }
 
-        margin-bottom: 80px;
-    }
+  .wrapper-item {
+    width: 640px;
+  }
 
-    .wrapper-item {
-        width: 640px;
-    }
+  .section-welcome-title {
+    font-size: 48px;
+  }
 
-    .section-welcome-title {
-        font-size: 48px;
-    }
+  .section-welcome-text {
+    max-width: 640px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
 
-    .section-welcome-text {
-        max-width: 640px;
-        font-size: 18px;
-        line-height: 1.5;
-    }
+  .find-location-link:hover,
+  .find-location-link:focus {
+    opacity: 0.5;
+  }
+
+  .find-location-link:active {
+    opacity: 0.7;
+  }
 }
